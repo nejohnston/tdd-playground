@@ -1,5 +1,8 @@
-const palindrome = require("../lib/palindrome");
+const isPalindrome = require('../lib/palindrome');
 
-describe("palindrome", () => {
-  test("when palindrome is equal to palindrome, return true", () => {});
+describe('isPalindrome', () => {
+  test('when palindrome is equal to palindrome, return true', () => {
+    const result = isPalindrome('mom');
+    expect(result).toBeTruthy();
+  });
 });

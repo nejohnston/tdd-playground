@@ -13,7 +13,8 @@ describe('frogJumps', () => {
     const result = frogJumps(0, 10, 5);
     expect(result).toEqual(10);
   });
-  test('when start, end, jumpLength equal undefined, return undefined');
-  const result = frogJumps(undefined, undefined, undefined);
-  expect(result).toEqual(undefined);
+  test('when start, end, jumpLength equal undefined, return undefined', () => {
+    const result = frogJumps(undefined, undefined, undefined);
+    expect(result).toEqual(undefined);
+  });
 });

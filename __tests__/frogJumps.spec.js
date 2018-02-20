@@ -10,6 +10,7 @@ describe("frogJumps", () => {
     expect(result).toEqual(0);
   });
   test("when end is equal to 10, should return end", () => {
-    expect(frogJumps(5, 15, 10)).toEqual(1);
+    const result = frogJumps(0, 10, 5)
+    expect(result).toEqual(10);
   });
 });

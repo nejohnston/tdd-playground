@@ -9,4 +9,8 @@ describe('stringCompress', () => {
     const result = stringCompress('aaabbbccc');
     expect(result).toEqual('a3b3c3');
   });
+  test('when given a string with same letters, return preserved order', () => {
+    const result = stringCompress('aaabbbaa');
+    expect(result).toEqual('a3b3a2');
+  });
 });

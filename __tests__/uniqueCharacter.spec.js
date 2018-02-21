@@ -5,12 +5,12 @@ describe('uniqueCharacter', () => {
     const result = uniqueCharacter('dddeefggghhh');
     expect(result).toEqual('f');
   });
-  test('when given a string of all unique letters, return first unique', () => {
-    const result = uniqueCharacter('defgh');
-    expect(result).toEqual('d');
-  });
-  test('when given a string with duplicate letters spaced out, return first unique', () => {
-    const result = uniqueCharacter('frof');
-    expect(result).toEqual('r');
-  });
+  //   test('when given a string of all unique letters, return first unique', () => {
+  //     const result = uniqueCharacter('defgh');
+  //     expect(result).toEqual('d');
+  //   });
+  //   test('when given a string with duplicate letters spaced out, return first unique', () => {
+  //     const result = uniqueCharacter('frof');
+  //     expect(result).toEqual('r');
+  //   });
 });
